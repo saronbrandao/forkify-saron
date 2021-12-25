@@ -129,7 +129,7 @@ const controlAddRecipe = async function (newRecipe) {
 };
 
 const newFeature = function () {
-  console.log('welcome to the application!');
+  console.log('welcome to the updated application!');
 };
 //Jonas Version:
 const init = function () {
