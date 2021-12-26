@@ -568,7 +568,7 @@ const controlAddRecipe = async function(newRecipe) {
     }
 };
 const newFeature = function() {
-    console.log('welcome to the application!');
+    console.log('welcome to the updated application!');
 };
 //Jonas Version:
 const init = function() {
@@ -14156,7 +14156,7 @@ class RecipeView extends _viewDefault.default {
       <svg class="recipe__icon">
         <use href="${_iconsSvgDefault.default}#icon-check"></use>
       </svg>
-      <div class="recipe__quantity">${ing.quantity ? new _helpers.numberToFraction(ing.quantity).toString() : ''}</div>
+      <div class="recipe__quantity">${ing.quantity ? _helpers.numberToFraction(ing.quantity).toString() : ''}</div>
       <div class="recipe__description">
         <span class="recipe__unit">${ing.unit}</span>
         ${ing.description}
